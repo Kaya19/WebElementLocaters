@@ -14,7 +14,7 @@ public class NameLocaterWithChromeInvoke {
     }
 
     public static void chromeBrowserInvoke(){
-        System.setProperty("webdriver.chrome.driver","/users/ykaya/downloads/chromedriver");
+        System.setProperty("webdriver.chrome.driver","/users/ykaya/downloads/chromedriver");//value of the key is the path for chrome driver
         chromeDriver=new ChromeDriver();
 
     }
