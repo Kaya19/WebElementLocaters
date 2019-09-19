@@ -8,8 +8,8 @@ public class NameLocaterWithChromeInvoke {
     public static void main(String[] args) {
         chromeBrowserInvoke();
         chromeDriver.get("http://facebook.com");
-        chromeDriver.findElement(By.name("firstname")).sendKeys("Yasin");
-        chromeDriver.findElement(By.name("lastname")).sendKeys("Kaya");
+        chromeDriver.findElement(By.name("firstname")).sendKeys("John");
+        chromeDriver.findElement(By.name("lastname")).sendKeys("Smith");
 
     }
 
